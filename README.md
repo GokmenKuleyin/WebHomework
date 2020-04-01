@@ -1,1 +1,2 @@
 # WebTeknolojileriOdevi
+#G191210054 2A ALAATTİN GÖKMEN KULEYİN
