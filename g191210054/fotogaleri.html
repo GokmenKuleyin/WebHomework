@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Foto Galeri</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body bgcolor="green">
+
+<center>
+<table border="10" width="780" height="280" bordercolor="black" bgcolor="black" >
+<tr>
+<td width="190"  bgcolor="white"><center><b><a href="anasayfa.html">AnaSayfa</a></b></center></td>
+<td bgcolor="white" rowspan="13"><center><h1><font face="Times New Roman" color=green><i>Foto Galeri</i>
+<h1><font face="Times New Roman" color=green><i>Trabzon'un Tarihi Yerleri</i></font></h1></center>
+<title>Foto Galeri</title>
+<center><img width="640" height="360" src="tarihi1.jpg"></center>
+<center><img width="640" height="360" src="tarihi2.jpg"></center>
+<center><img width="640" height="360" src="tarihi3.jpg"></center>
+<center><img width="640" height="360" src="tarihi4.jpg"></center>
+<center><img width="640" height="360" src="tarihi5.jpg"></center>
+</tr>
+<tr>
+<td bgcolor="white"> <center><b><a href="tarihce.html">Tarihçe</a></b>
+</td>
+</tr>
+<tr>
+<tr>
+<td bgcolor="white"><center><b><a href="fotogaleri.html">Foto Galeri</a></b>
+</td>
+</tr>
+<tr>
+<tr>
+<td bgcolor="white"><center><b><a href="turistikyerleri.html">Turistik Yerleri</a></b></center>
+</td>
+</tr>
+<tr>
+<td bgcolor="white">
+<center><b><a href="manastir.html">
+Sümela Manastırı</a></b>
+</center>
+</td>
+</tr>
+<tr>
+<td bgcolor="white">
+</td>
+</tr>
+<tr>
+<td bgcolor="white">
+<center><b><a href="hakkinda.html">
+Sitenin Yapımcısı Hakkında</a></b>
+</center>
+</td>
+</tr>
+<tr>
+<td bgcolor="white">
+    <title>Login Page</title>
+</head>
+<body>
+<form name="Giris" method="post" action="giris.php">
+<table width="20%" bgcolor="0099CC" align="center">
+
+<tr>
+<td colspan=2><center><font size=4><b>Giriş Yapın</b></font></center></td>
+</tr>
+
+<tr>
+<td>Username:</td>
+<td><input type="text" size=25 name="userid"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="Password" size=25 name="pwd"></td>
+</tr>
+
+<tr>
+<td ><input type="Reset"></td>
+<td><input type="submit" onclick="return check(this.form)" value="Giris"></td>
+</tr>
+
+</table>
+</form>
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "g191210054@sakarya.edu.tr" && form.pwd.value == "123")
+{
+	return true;
+}
+else
+{
+	alert("Hata:Yanlış kullanıcı adı ya da yanlış şifre")
+	return false;
+}
+}
+</script>
+</body>
+</html>
